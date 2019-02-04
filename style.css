@@ -3,6 +3,7 @@ html, body {
 	height: 100%;
 	width: 100%;
 	margin-top: 30px;
+	background-color: #eee;
 }
 button {
 	margin: 10px;
