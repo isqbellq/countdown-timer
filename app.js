@@ -37,7 +37,7 @@
 		const display = `${h < 10 ? "0" : ""}${h}:${m < 10 ? "0" : ""}${m}:${s < 10 ? "0" : ""}${s}`;
 
 		if (h === 0 && m === 0 && s <= 10) {
-			timerDisplay.style.color = "red";
+			timerDisplay.style.color = "#e2062c";
 		} else {
 			timerDisplay.style.color = "#000";
 		}
