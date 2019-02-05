@@ -35,15 +35,18 @@
 		text.textContent = "Time left:";
 
 		const display = `${h < 10 ? "0" : ""}${h}:${m < 10 ? "0" : ""}${m}:${s < 10 ? "0" : ""}${s}`;
-
-		if (h === 0 && m === 0 && s <= 10) {
+		
+		timerDisplay.textContent = display;
+		document.title = display;
+		
+		if (h === 0 && m === 0 && s === 0) {
+			timerDisplay.textContent = "Time's up!";
+		} else if (h === 0 && m === 0 && s <= 10) {
 			timerDisplay.style.color = "#e2062c";
-		} else {
+		}  else {
 			timerDisplay.style.color = "#000";
 		}
 
-		timerDisplay.textContent = display;
-		document.title = display;
 	}
 
 	function displayEndTime(timestamp) {
@@ -77,7 +80,8 @@
 		stopBut.addEventListener("click", function(e) {
 			e.preventDefault();
 			timer(0);
+			timerDisplay.textContent = "00:00:00";
+			timerDisplay.style.color = "#000";			
 			endTime.textContent = "";
-			timerDisplay.style.color = "#000";
 		});
 	}
