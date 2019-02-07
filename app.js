@@ -53,7 +53,9 @@
 		const end = new Date(timestamp);
 		const hours = end.getHours();
 		const minutes = end.getMinutes();
-		endTime.textContent = `Get back to work at ${hours}${hours < 10 ? "0" : ""}:${minutes < 10 ? "0" : ""}${minutes}.`;
+		const backToWork = `${hours}${hours < 10 ? "0" : ""}:${minutes < 10 ? "0" : ""}${minutes}`;
+
+		endTime.textContent = `Get back to work at ${backToWork}.`;
 	}
 
 	function startTimer() {
