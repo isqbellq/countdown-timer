@@ -14,7 +14,7 @@ html, body {
 	max-height: 80vh;
 }
 .timer {
-	padding-top: 80px;
+	padding-top: 90px;
 }
 button {
 	margin: 10px;
@@ -28,7 +28,7 @@ button {
 	align-items: center;
 }
 .time-left {
-	font-size: 80px;
+	font-size: 90px;
 }
 .show-time {
 	margin: 50px;
