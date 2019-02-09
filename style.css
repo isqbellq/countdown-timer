@@ -5,7 +5,7 @@ html, body {
 	height: 100%;
 	width: 100%;
 	padding: 0;
-	margin: 0px;
+	margin: 0;
 	background-color: #eee;
 	font-size: 18px;
 	font-family: 'Didact Gothic', sans-serif;
@@ -21,6 +21,7 @@ button {
 	padding: 12px !important;
 	width: 120px;
 	border: 1px #aaa solid !important;
+	background: #eee;
 }
 .controls {
 	display: inline-flex;
@@ -41,8 +42,9 @@ input {
 	text-align: center;
 	border: #bbb solid 1px;	
 	border-radius: 6px !important;	
+	background: #f4f4f4;
 }
 .fas {
 	margin-right: 5px;
-	opacity: .75;
+	opacity: .8;
 }
