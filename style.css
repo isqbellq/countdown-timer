@@ -56,24 +56,30 @@ input {
 	body {
 		height: 150%;
 		background-attachment: fixed;
+		font-size: 20px;
 	}
 	.timer {
 		padding-top: 40px;
 	}
 	button {
 		border-radius: 8px !important;
+		width: 110px;
 	}
 	.controls {
 		display: block;
+		margin: 0 30px;
 	}	
 	form#custom {
 		margin: 0;
-		margin-top: 30px;
+		margin-top: 10px;
+	}
+	input {
+		padding: 10px 28px;
 	}
 	.show-time {
 		margin: 20px;
 	}
 	.time-left {
-		font-size: 50px;
+		font-size: 70px;
 	}
 }
