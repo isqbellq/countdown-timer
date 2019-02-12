@@ -31,7 +31,8 @@ button {
 }
 button:hover {
 	background: #e0e0e0;
-	text-shadow: 1px 1px 1px #555555;
+/*	text-shadow: 1px 1px 1px #555555;
+*/	font-weight: bold;
 }
 .controls {
 	display: inline-flex;
