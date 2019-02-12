@@ -29,6 +29,10 @@ button {
 	-moz-box-shadow: 2px 2px 5px -1px rgba(102,102,102,1);
 	box-shadow: 2px 2px 5px -1px rgba(102,102,102,1);
 }
+button:hover {
+	background: #e0e0e0;
+	text-shadow: 1px 1px 1px #555555;
+}
 .controls {
 	display: inline-flex;
 	justify-content: center;
