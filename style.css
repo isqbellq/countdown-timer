@@ -24,13 +24,13 @@ button {
 	padding: 12px !important;
 	width: 120px;
 	background: #eee;
-	-webkit-box-shadow: 0 2px 5px 0 rgba(102,102,102,1);
-	-moz-box-shadow: 0 2px 5px 0 rgba(102,102,102,1);
-	box-shadow: 0 2px 5px 0 rgba(102,102,102,1);
+	font-weight: bold !important;
+	-webkit-box-shadow:  0 2px 4px 0 hsla(0, 0%, 0%, 0.3);
+	-moz-box-shadow:  0 2px 4px 0 hsla(0, 0%, 0%, 0.3);
+	box-shadow:  0 2px 4px 0 hsla(0, 0%, 0%, 0.3);
 }
 button:hover {
-	font-weight: bold;
-	border-top: 4px solid #ccc; 
+	color: #555;
 }
 .controls {
 	display: inline-flex;
@@ -51,9 +51,12 @@ form#custom {
 input {
 	padding: 13px;
 	text-align: center;
-	border: #bbb solid 1px;	
+	border: none;	
 	border-radius: 6px !important;	
 	background: #f4f4f4;
+	-webkit-box-shadow: inset 0 2px 4px 0 hsla(0, 0%, 0%, 0.3);
+	-moz-box-shadow: inset 0 2px 4px 0 hsla(0, 0%, 0%, 0.3);
+	box-shadow: inset 0 2px 4px 0 hsla(0, 0%, 0%, 0.3);
 }
 .fas {
 	margin-right: 5px;
