@@ -23,16 +23,14 @@ button {
 	margin: 10px;
 	padding: 12px !important;
 	width: 120px;
-	border: 1px #aaa solid !important;
 	background: #eee;
-	-webkit-box-shadow: 2px 2px 5px -1px rgba(102,102,102,1);
-	-moz-box-shadow: 2px 2px 5px -1px rgba(102,102,102,1);
-	box-shadow: 2px 2px 5px -1px rgba(102,102,102,1);
+	-webkit-box-shadow: 0 2px 5px 0 rgba(102,102,102,1);
+	-moz-box-shadow: 0 2px 5px 0 rgba(102,102,102,1);
+	box-shadow: 0 2px 5px 0 rgba(102,102,102,1);
 }
 button:hover {
-	background: #e0e0e0;
-/*	text-shadow: 1px 1px 1px #555555;
-*/	font-weight: bold;
+	font-weight: bold;
+	border-top: 4px solid #ccc; 
 }
 .controls {
 	display: inline-flex;
@@ -41,6 +39,8 @@ button:hover {
 }
 .time-left {
 	font-size: 110px;
+	font-feature-settings: "tnum";
+	font-variant-numeric: tabular-nums;
 }
 .show-time {
 	margin: 50px;
